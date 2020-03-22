@@ -1,0 +1,172 @@
+
+
+body{
+    margin: 0;
+  padding: 0;
+  border: 0;
+  
+}
+.intro {
+    height: 120vh;
+    text-align: center;
+  }
+  
+  .grid-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex-direction: row; 
+    -webkit-flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    width: 600px;
+    display: inline-block;
+    margin-top: 80px;
+  }
+
+  .container-fluid{
+    margin-top: 15px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#a8ff78, #78ffd6);
+    border-radius: 20px;
+    box-shadow: -6px -6px 10px #353535e3,
+                inset 4px 4px 8px rgba(0, 0, 0, 0.507),
+                2px 2px 10px rgba(77, 65, 65, 0.534);
+  }
+
+  .student{
+      margin-top: -130px;
+      margin-bottom: 50px;
+      font-size: 45px;
+      font-weight: bold;
+      font-family: Oleo Script;
+      color: brown;
+      letter-spacing: 2.6px;
+      text-shadow: 1px 1px 1px #929292,
+                1px 2px 1px #929292,
+                1px 3px 1px rgba(165, 42, 42, 0.678),
+                1px 4px 1px rgba(0, 0, 0, 0.582);
+      border-radius: 13px;
+      box-shadow: -2px -2px 10px #16222a79,
+                  inset 2px 2px 8px rgba(0, 0, 0, 0.507),
+                  2px 2px 10px rgba(77, 65, 65, 0.534);
+  }
+
+  .subject{
+    text-align: left;
+  }
+
+
+  #rank{
+    margin-left: 70px;
+    font-size: 20px;
+  }
+
+  #evaluation, #evaluation1, #evaluation2, #evaluation3, #evaluation4{
+    margin-left: 30px;
+    font-family: "Roboto" ,sans-serif;
+    font-weight: bold;
+  }
+  
+
+  #remarks{
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-family: "Roboto" ,sans-serif;
+    font-weight: bold;
+  }
+
+  #table2, #sub, #grade{
+    font-family: "Roboto" ,sans-serif;
+    font-weight: bold;
+  }
+
+  #eval{
+    margin-left: -400px;
+    background: linear-gradient(to right, #16222a,#3a6073);
+    color: orange;
+    font-weight: bold;
+    height: 35px;
+    width: 90px;
+    font-family: "Roboto" ,sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: 0.5s;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 10px #16222a79,
+                  inset 2px 2px 8px rgba(0, 0, 0, 0.507),
+                  2px 2px 10px rgba(77, 65, 65, 0.534);
+  }
+  #eval:hover { 
+    background-image: linear-gradient(to right, #304352 0%, #304352 100%);
+    box-shadow: 
+                inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+                inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    color: gray;
+    text-decoration: none;
+  }
+
+
+  #math, #science, #english, #filipino, #pe{
+    font-family: "Roboto" ,sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: 0.5s;
+    border: 2px;
+    border-radius: 6px;
+    box-shadow: -2px -2px 10px #26384479,
+                inset 2px 2px 8px rgba(32, 32, 32, 0.466),
+                2px 2px 10px rgba(48, 41, 41, 0.534);
+  }
+
+  #math:hover, #science:hover, #english:hover, #filipino:hover, #pe:hover{
+    box-shadow: 
+                inset -2px -2px 12px rgba(65, 65, 65, 0.452),
+                inset 2px 2px 4px rgba(71, 71, 71, 0.205),
+                inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+    color: black;
+    text-decoration: none;
+  }
+
+  #intext{
+    font-family: "Roboto" ,sans-serif;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: 0.5s;
+    border: 2px;
+    border-radius: 8px;
+    margin-left: 20px;
+    background: none;
+    display: inline-block;
+    border: none;
+    border-bottom: solid 2px gray;
+    font-weight: bold;
+  }
+
+  #intext:hover{
+    box-shadow: 
+            inset -2px -2px 12px rgba(65, 65, 65, 0.562),
+            inset 2px 2px 4px rgba(71, 71, 71, 0.205),
+            inset 2px 2px 8px rgba(0, 0, 0, 0.363);
+    color: black;
+    text-decoration: none;
+  }
+
+  #input:focus, #input:active{
+    outline: none;
+  }
